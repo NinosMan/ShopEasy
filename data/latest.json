@@ -1,0 +1,151 @@
+{
+  "generatedAt": "2026-05-31T08:00:00+12:00",
+  "sample": true,
+  "note": "SAMPLE DATA ONLY — prices are fabricated for UI testing, not real.",
+  "products": [
+    {
+      "id": "milk-standard-2l",
+      "name": "Standard Blue Milk 2L",
+      "brand": "Anchor",
+      "size": "2L",
+      "category": "Dairy & Eggs",
+      "prices": [
+        { "chain": "Pak'nSave", "store": "Royal Oak", "price": 4.39, "unitPrice": "$2.20/L" },
+        { "chain": "Woolworths", "store": "Mt Roskill", "price": 4.7, "unitPrice": "$2.35/L" },
+        { "chain": "New World", "store": "Mt Albert", "price": 4.99, "unitPrice": "$2.50/L" }
+      ]
+    },
+    {
+      "id": "eggs-size7-dozen",
+      "name": "Size 7 Cage-Free Eggs 12pk",
+      "brand": "Woodland",
+      "size": "12 pack",
+      "category": "Dairy & Eggs",
+      "prices": [
+        { "chain": "Woolworths", "store": "Mt Roskill", "price": 7.5, "unitPrice": "$0.63/ea" },
+        { "chain": "Pak'nSave", "store": "Royal Oak", "price": 7.79, "unitPrice": "$0.65/ea" },
+        { "chain": "New World", "store": "Mt Albert", "price": 8.49, "unitPrice": "$0.71/ea" }
+      ]
+    },
+    {
+      "id": "bread-toast-white",
+      "name": "Classic White Toast Bread 700g",
+      "brand": "Vogel's",
+      "size": "700g",
+      "category": "Bakery",
+      "prices": [
+        { "chain": "Pak'nSave", "store": "Royal Oak", "price": 3.49, "unitPrice": "$0.50/100g" },
+        { "chain": "New World", "store": "Mt Albert", "price": 3.99, "unitPrice": "$0.57/100g" },
+        { "chain": "Woolworths", "store": "Mt Roskill", "price": 4.2, "unitPrice": "$0.60/100g" }
+      ]
+    },
+    {
+      "id": "butter-salted-500g",
+      "name": "Salted Butter 500g",
+      "brand": "Mainland",
+      "size": "500g",
+      "category": "Dairy & Eggs",
+      "prices": [
+        { "chain": "New World", "store": "Mt Albert", "price": 6.29, "unitPrice": "$1.26/100g" },
+        { "chain": "Pak'nSave", "store": "Royal Oak", "price": 6.49, "unitPrice": "$1.30/100g" },
+        { "chain": "Woolworths", "store": "Mt Roskill", "price": 6.5, "unitPrice": "$1.30/100g" }
+      ]
+    },
+    {
+      "id": "bananas-loose-kg",
+      "name": "Bananas, loose",
+      "brand": "",
+      "size": "per kg",
+      "category": "Fruit & Veg",
+      "prices": [
+        { "chain": "Pak'nSave", "store": "Royal Oak", "price": 2.99, "unitPrice": "$2.99/kg" },
+        { "chain": "Woolworths", "store": "Mt Roskill", "price": 3.2, "unitPrice": "$3.20/kg" },
+        { "chain": "New World", "store": "Mt Albert", "price": 3.49, "unitPrice": "$3.49/kg" }
+      ]
+    },
+    {
+      "id": "chicken-breast-skinless-kg",
+      "name": "Chicken Breast, skinless",
+      "brand": "",
+      "size": "per kg",
+      "category": "Meat & Seafood",
+      "prices": [
+        { "chain": "Woolworths", "store": "Mt Roskill", "price": 13.0, "unitPrice": "$13.00/kg" },
+        { "chain": "Pak'nSave", "store": "Royal Oak", "price": 13.49, "unitPrice": "$13.49/kg" },
+        { "chain": "New World", "store": "Mt Albert", "price": 15.99, "unitPrice": "$15.99/kg" }
+      ]
+    },
+    {
+      "id": "weetbix-1.2kg",
+      "name": "Weet-Bix 1.2kg",
+      "brand": "Sanitarium",
+      "size": "1.2kg",
+      "category": "Pantry",
+      "prices": [
+        { "chain": "Pak'nSave", "store": "Royal Oak", "price": 6.99, "unitPrice": "$0.58/100g" },
+        { "chain": "Woolworths", "store": "Mt Roskill", "price": 7.5, "unitPrice": "$0.63/100g" },
+        { "chain": "New World", "store": "Mt Albert", "price": 7.69, "unitPrice": "$0.64/100g" }
+      ]
+    },
+    {
+      "id": "pasta-spaghetti-500g",
+      "name": "Spaghetti No.5 500g",
+      "brand": "San Remo",
+      "size": "500g",
+      "category": "Pantry",
+      "prices": [
+        { "chain": "Woolworths", "store": "Mt Roskill", "price": 1.8, "unitPrice": "$0.36/100g" },
+        { "chain": "Pak'nSave", "store": "Royal Oak", "price": 1.99, "unitPrice": "$0.40/100g" },
+        { "chain": "New World", "store": "Mt Albert", "price": 2.2, "unitPrice": "$0.44/100g" }
+      ]
+    },
+    {
+      "id": "tasty-cheese-1kg",
+      "name": "Tasty Cheese Block 1kg",
+      "brand": "Mainland",
+      "size": "1kg",
+      "category": "Dairy & Eggs",
+      "prices": [
+        { "chain": "Pak'nSave", "store": "Royal Oak", "price": 11.99, "unitPrice": "$1.20/100g" },
+        { "chain": "New World", "store": "Mt Albert", "price": 12.99, "unitPrice": "$1.30/100g" },
+        { "chain": "Woolworths", "store": "Mt Roskill", "price": 13.5, "unitPrice": "$1.35/100g" }
+      ]
+    },
+    {
+      "id": "coffee-instant-100g",
+      "name": "Gold Instant Coffee 100g",
+      "brand": "Moccona",
+      "size": "100g",
+      "category": "Pantry",
+      "prices": [
+        { "chain": "New World", "store": "Mt Albert", "price": 9.99, "unitPrice": "$9.99/100g" },
+        { "chain": "Woolworths", "store": "Mt Roskill", "price": 10.5, "unitPrice": "$10.50/100g" },
+        { "chain": "Pak'nSave", "store": "Royal Oak", "price": 10.99, "unitPrice": "$10.99/100g" }
+      ]
+    },
+    {
+      "id": "apples-royal-gala-kg",
+      "name": "Apples Royal Gala, loose",
+      "brand": "",
+      "size": "per kg",
+      "category": "Fruit & Veg",
+      "prices": [
+        { "chain": "Woolworths", "store": "Mt Roskill", "price": 3.9, "unitPrice": "$3.90/kg" },
+        { "chain": "Pak'nSave", "store": "Royal Oak", "price": 3.99, "unitPrice": "$3.99/kg" },
+        { "chain": "New World", "store": "Mt Albert", "price": 4.49, "unitPrice": "$4.49/kg" }
+      ]
+    },
+    {
+      "id": "tomato-sauce-560g",
+      "name": "Tomato Sauce 560g",
+      "brand": "Wattie's",
+      "size": "560g",
+      "category": "Pantry",
+      "prices": [
+        { "chain": "Pak'nSave", "store": "Royal Oak", "price": 4.49, "unitPrice": "$0.80/100g" },
+        { "chain": "Woolworths", "store": "Mt Roskill", "price": 4.8, "unitPrice": "$0.86/100g" },
+        { "chain": "New World", "store": "Mt Albert", "price": 5.0, "unitPrice": "$0.89/100g" }
+      ]
+    }
+  ]
+}

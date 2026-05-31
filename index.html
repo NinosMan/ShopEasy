@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en-NZ">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#0a7d4b" />
+  <title>ShopEasy — NZ grocery price compare</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <header class="app-header">
+    <h1>🛒 ShopEasy</h1>
+    <p class="tagline">Compare NZ supermarket prices</p>
+  </header>
+
+  <div id="sample-banner" class="banner" hidden>
+    ⚠️ <strong>Sample data.</strong> The price collector isn't wired to live
+    supermarket data yet — these figures are made up so you can try the UI.
+  </div>
+
+  <main>
+    <div class="search-wrap">
+      <input
+        id="search"
+        type="search"
+        inputmode="search"
+        autocomplete="off"
+        placeholder="Search products, e.g. milk, bread, eggs…"
+        aria-label="Search products"
+      />
+    </div>
+
+    <div id="chips" class="chips" role="group" aria-label="Filter by category"></div>
+
+    <p id="meta" class="meta"></p>
+    <section id="results" class="results" aria-live="polite"></section>
+    <p id="empty" class="empty" hidden>No products match your search.</p>
+  </main>
+
+  <footer class="app-footer">
+    <span id="footer-meta"></span>
+  </footer>
+
+  <script src="./app.js"></script>
+</body>
+</html>

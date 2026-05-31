@@ -4,9 +4,26 @@ A personal tool to compare grocery prices across the major New Zealand
 supermarkets (Woolworths/Countdown, New World, Pak'nSave), inspired by
 [grocer.nz](https://grocer.nz/).
 
-> **Status:** R&D / planning. No app code yet. See [`docs/RESEARCH.md`](docs/RESEARCH.md)
-> for how the existing tools work and what we learned probing the real endpoints,
-> and [`docs/PLAN.md`](docs/PLAN.md) for the proposed build.
+> **Status:** Working static frontend with **sample data** (try it on your phone
+> now — see below). The price *collector* that fetches real supermarket data is
+> not built yet. See [`docs/RESEARCH.md`](docs/RESEARCH.md) for how the existing
+> tools work and what we learned probing the real endpoints, and
+> [`docs/PLAN.md`](docs/PLAN.md) for the proposed build.
+
+## Try it on your phone (GitHub Pages)
+
+The app is a static site at the repo root, so no build is needed.
+
+1. On GitHub: **Settings → Pages**.
+2. Under **Build and deployment → Source**, pick **Deploy from a branch**.
+3. Set **Branch** to `claude/supermarket-price-comparison-smRjs` and **folder**
+   to `/ (root)`, then **Save**.
+4. Wait ~1 minute, then open the URL it shows (e.g.
+   `https://<you>.github.io/shopeasy/`) on your phone.
+
+You'll see the comparison UI working against sample prices (clearly labelled).
+When the collector is wired up, it just overwrites `data/latest.json` and the
+same site shows real prices — no frontend changes needed.
 
 ## TL;DR of the approach
 
